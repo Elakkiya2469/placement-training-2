@@ -1,0 +1,7 @@
+public class LineCount {
+    public static void main(String[] args) {
+        String s = "Line1\nLine2\nLine3";
+        int lines = s.split("\n").length;
+        System.out.println("Lines: " + lines);
+    }
+}

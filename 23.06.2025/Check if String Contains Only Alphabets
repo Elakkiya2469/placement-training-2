@@ -1,0 +1,6 @@
+public class OnlyAlphabets {
+    public static void main(String[] args) {
+        String s = "HelloWorld";
+        System.out.println(s.matches("[a-zA-Z]+") ? "Only Alphabets" : "Contains Other Characters");
+    }
+}

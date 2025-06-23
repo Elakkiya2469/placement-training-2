@@ -1,0 +1,6 @@
+public class RemoveSpaces {
+    public static void main(String[] args) {
+        String s = "Java is easy";
+        System.out.println(s.replaceAll(" ", ""));
+    }
+}

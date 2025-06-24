@@ -1,0 +1,6 @@
+public class StringRotation {
+    public static void main(String[] args) {
+        String s1 = "ABCD", s2 = "CDAB";
+        System.out.println((s1.length() == s2.length() && (s1 + s1).contains(s2)) ? "Yes" : "No");
+    }
+}

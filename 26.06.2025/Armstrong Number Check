@@ -1,0 +1,5 @@
+n = int(input("Enter number: "))
+num_str = str(n)
+power = len(num_str)
+total = sum(int(d)**power for d in num_str)
+print("Armstrong" if total == n else "Not Armstrong")

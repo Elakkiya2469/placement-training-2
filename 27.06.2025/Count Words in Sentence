@@ -1,0 +1,3 @@
+s = "Python is simple and powerful"
+words = s.split()
+print("Words:", len(words))

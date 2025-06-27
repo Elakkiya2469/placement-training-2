@@ -1,0 +1,3 @@
+num = 76
+square = num ** 2
+print("Automorphic" if str(square).endswith(str(num)) else "Not Automorphic")

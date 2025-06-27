@@ -1,0 +1,2 @@
+decimal = 10
+print("Binary:", bin(decimal)[2:])

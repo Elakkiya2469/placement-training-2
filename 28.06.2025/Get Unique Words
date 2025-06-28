@@ -1,0 +1,3 @@
+s = "hello world hello"
+unique = set(s.split())
+print(unique)

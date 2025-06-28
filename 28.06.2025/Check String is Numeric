@@ -1,0 +1,2 @@
+s = "12345"
+print("Numeric" if s.isdigit() else "Not Numeric")

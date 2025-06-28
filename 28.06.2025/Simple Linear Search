@@ -1,0 +1,4 @@
+lst = [2, 4, 6, 8]
+x = 6
+found = x in lst
+print("Found" if found else "Not Found")

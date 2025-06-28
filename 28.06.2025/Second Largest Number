@@ -1,0 +1,4 @@
+lst = [1, 5, 2, 8, 3]
+lst = list(set(lst))
+lst.sort()
+print("Second Largest:", lst[-2])

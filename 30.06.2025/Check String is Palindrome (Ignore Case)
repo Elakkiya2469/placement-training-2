@@ -1,0 +1,2 @@
+s = "Level"
+print("Palindrome" if s.lower() == s[::-1].lower() else "Not Palindrome")

@@ -1,0 +1,3 @@
+with open("sample.txt") as f:
+    lines = f.readlines()
+    print("Lines:", len(lines))

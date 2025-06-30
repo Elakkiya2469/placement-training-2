@@ -1,0 +1,2 @@
+with open("sample.txt", "a") as f:
+    f.write("\nAppend this line")
